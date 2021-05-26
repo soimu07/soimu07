@@ -1,0 +1,23 @@
+.btn-class-name {
+  position: relative;
+  display: flex;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid #d92938;
+  color: #0d0d0d;
+  border-radius: 50px;
+  padding: 5px 10px;
+  height: fit-content;
+}
+
+.btn-class-name:hover {
+  background-color: #d92938;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  transition: 0.3s;
+}
+
+.btn-class-name:focus {
+  outline: none;
+}

@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: #f2f2f2;
+  align-items: center;
+}
+
+.content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+@media (min-width: 900px) {
+  .content {
+    max-width: 1320px;
+  }
+}
+
+/*
+
+WHITE        #f2f2f2
+GREY         #bfbfbf
+BLACK        #0d0d0d
+BLUE         #092473
+RED          #d92938
+
+
+*/

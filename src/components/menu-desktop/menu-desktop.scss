@@ -1,0 +1,41 @@
+.header-desktop-container {
+  display: none;
+}
+
+@media (min-width: 901px) {
+  .header-desktop-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    background: transparent;
+  }
+
+  .logo {
+    cursor: pointer;
+    padding-left: 4%;
+    display: flex;
+    align-items: center;
+    color: #0d0d0d;
+  }
+  .menu-items {
+    display: flex;
+    color: #0d0d0d;
+    list-style: none;
+    padding-right: 4%;
+    flex: 0.3;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .item {
+    border-bottom: 2px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .item:hover {
+    border-bottom: 2px solid #d92938;
+    transition: 0.3s;
+  }
+}

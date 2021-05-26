@@ -1,0 +1,38 @@
+export default [
+  {
+    id: "1",
+    img: "Hera image",
+    title: "Hera 15L",
+    price: "110",
+    manufacturer: "PPG Trilak",
+    category: "Perete",
+    description: "Hera's description",
+  },
+  {
+    id: "2",
+    img: "Inn image",
+    title: "Inntaler 15L",
+    price: "110",
+    manufacturer: "Poli-farbe",
+    category: "Perete",
+    description: "Inntaler's description",
+  },
+  {
+    id: "3",
+    img: "Kober image",
+    title: "Kober 15L",
+    price: "75",
+    manufacturer: "Kober",
+    category: "Perete",
+    description: "Kober's description",
+  },
+  {
+    id: "4",
+    img: "Vizu image",
+    title: "Vizuveg",
+    price: "10",
+    manufacturer: "Kemikál",
+    category: "Zidărie",
+    description: "Vizuveg's description",
+  },
+];

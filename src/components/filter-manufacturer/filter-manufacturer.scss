@@ -1,0 +1,94 @@
+/*----------
+---BUTTON---
+----------*/
+.delete-filter-button {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #d92938;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  display: none;
+}
+
+.button-delete-visible {
+  display: flex;
+}
+
+.delete-filter-button:hover {
+  color: #fff;
+  background-color: #d92938;
+  transition: 0.3s;
+}
+/*--------------
+---LIST ITEMS---
+--------------*/
+
+.list-container {
+  margin: 3px 0 0 0;
+}
+
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 20px 0 20px;
+  background: #f2f2f2;
+  margin: 0;
+  border-bottom: 0.5px solid #bfbfbf;
+}
+
+.list-item-container:last-child {
+  border: 0;
+}
+
+.list-items {
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  line-height: 25px;
+  color: #0d0d0d;
+}
+.selected-item {
+  background-color: #d92938;
+  transition: 0.3s;
+}
+
+.selected-item-text {
+  color: #f2f2f2;
+  transition: 0.3s;
+}
+
+/*--------------
+-----FILTER-----
+--------------*/
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 0;
+}
+.filter-title {
+  text-align: center;
+  margin: 0 5px 0 0;
+  background-color: #bfbfbf;
+  color: #f2f2f2;
+  font-size: 24px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  padding: 0 10px;
+}
+
+.filter-title::first-letter {
+  color: #d92938;
+}
